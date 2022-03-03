@@ -1,0 +1,211 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = betterminecraftpanorama
+  action = setbackgroundpanorama
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400310%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 7
+}
+
+customization {
+  identifier = %id=400358%
+  orientation = mid-centered
+  x = 104
+  action = movebutton
+  y = 30
+}
+
+customization {
+  identifier = %id=400358%
+  width = 20
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400358%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=604394%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400286%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -16
+}
+
+customization {
+  identifier = %id=400334%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400394%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 66
+}
+
+customization {
+  identifier = %id=3763941%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502394%
+  orientation = mid-centered
+  x = 104
+  action = movebutton
+  y = 66
+}
+
+customization {
+  identifier = %id=502394%
+  width = 20
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502394%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=376394%
+  orientation = mid-centered
+  x = -124
+  action = movebutton
+  y = 66
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  label = Bisect Server Hosting
+  loopbackgroundanimations = true
+  hoverlabel = Get 25% OFF with CODE: LunaPixel
+  x = -100
+  width = 200
+  actionid = efcdf291-4267-4012-bade-9c60c3e28fc71640665065017
+  action = addbutton
+  y = 30
+  value = https://www.bisecthosting.com/LunaPixel
+  height = 20
+}
+
+customization {
+  path = resourcepacks/Graphics/logo.png
+  orientation = mid-centered
+  x = -110
+  width = 221
+  action = addtexture
+  actionid = 2cf0c745-2c42-430a-8cdf-7dc4bcf8800d1640665205625
+  y = -122
+  height = 100
+}
+
+customization {
+  path = resourcepacks/Graphics/forge.png
+  orientation = mid-centered
+  x = 106
+  width = 16
+  action = addtexture
+  actionid = b7be043c-d386-4b92-9d75-661cfb973cc71640665689029
+  y = 31
+  height = 16
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = -124
+  width = 20
+  actionid = 43131b3f-0a4e-4775-b99c-7c4dad0bbecb1640665722332
+  action = addbutton
+  y = 30
+  label = 
+  value = https://discord.gg/8ZmhaPPbjE
+  height = 20
+}
+
+customization {
+  path = resourcepacks/Graphics/discord.png
+  orientation = mid-centered
+  x = -121
+  width = 14
+  action = addtexture
+  actionid = fa41fdf5-1a06-4519-bd5b-9add9b01980e1640665746249
+  y = 32
+  height = 15
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = 2
+  width = 98
+  actionid = 07d4691e-8189-4cb9-89fb-49b8795976ba1640665857134
+  action = addbutton
+  y = 66
+  label = Support Sharkie
+  value = https://www.paypal.com/donate/?hosted_button_id=3RNWQHFB7RE9J
+  height = 20
+}
+
+customization {
+  path = resourcepacks/Graphics/exit.png
+  orientation = mid-centered
+  x = 105
+  width = 18
+  action = addtexture
+  actionid = bf65a3d3-78e9-46ee-9cdc-f8aa4116ebed1640665936261
+  y = 67
+  height = 18
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 3
+  action = addtext
+  actionid = 5dc0a23d-01b9-4f7e-906e-574d152ef3751642402534726
+  y = -11
+  scale = 1.0
+  alignment = left
+  value = Created by Sharkie
+}
+
